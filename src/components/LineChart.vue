@@ -129,8 +129,7 @@
         total.value = 0
 
         onMounted(async() => {
-            //let request = "https://accidentvelo.jmfino.fr/json.php"
-            let request = "accidents-velos.json"
+            let request = "https://accidentvelo.jmfino.fr/json.php"
             await fetch(request)
             //Réponse demandée en json
             .then(response => response.json())
